@@ -80,6 +80,6 @@ def check_metric():
             if not i in ddinst:
                 print 'In host %s missing dd metric' % i
 
-check_metric()
-
-raw_input('Press enter to continue ...')
+if __name__ == '__main__':
+    check_metric()
+    raw_input('Press enter to continue ...')
