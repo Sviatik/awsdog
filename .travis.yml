@@ -7,5 +7,5 @@ services:
 
 script:
   - docker login -u="$DLOGIN" -p="$DPASSWORD"
-  - docker build -t yevhenvolchenko/awsdog:latest .
-  - docker push yevhenvolchenko/awsdog:latest
+  - docker build -t 732342/awsdog:latest .
+  - docker push 732342/awsdog:latest
